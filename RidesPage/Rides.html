@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/RidesPage/Rides.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Rides</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="icontainer">
+            <img src="/Images/Best Deal.png" alt="Logo">
+        </div>
+        <ul>
+            <li>OutStation</li>
+            <li>Rides</li>
+            <a href="/FoodPage/Food.html"><li><---> Food</li></a>
+        </ul>
+        <a href="#"><p>Need Help?</p></a>
+    </div>
+
+    <div class="content">
+        <div class="location">
+            <span id="heading-1">Chauffeur</span><br>
+            <span id="heading-1">On The Way!</span>
+            <div class="inputs">
+                <div class="source">
+                    <!-- <i class="fa-solid fa-location-crosshairs"></i> -->
+                    <input id="source" type="text" placeholder="Your source">
+                </div>
+                <input id="destination" type="text" placeholder="Your Destination">
+            </div>
+            <div class="submits">
+                <button type="button" onclick="getata()">Search</button>
+                <i class="fa-solid fa-car fa-2xl" style="color: #000000;"></i>
+                <i class="fa-solid fa-motorcycle fa-2xl"></i>
+                <i class="fa-solid fa-truck fa-2xl"></i>
+            </div>
+        </div>
+        <div class="imgs">
+            <img src="/Images/ridescar.jpg" alt="">
+        </div>
+    </div>
+    <script src="Rides.js"></script>
+</body>
+</html>

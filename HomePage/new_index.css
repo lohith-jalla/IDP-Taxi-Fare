@@ -1,0 +1,207 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+  
+
+body{
+    background-color: #2E2C2B;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow: hidden;
+    position: relative;
+}
+
+.nav{
+    width:100vw;
+    height:10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    font-family: 'Trebuchet MS';
+}
+
+.nav .image img{
+    width:10vw;
+    height:18vh;
+    margin:1.5rem;
+}
+
+.nav .log{
+    margin-right:1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .log .div{
+    padding: 20px;
+    margin:20px;
+    cursor: pointer;
+}
+
+.nav .log button{
+    width:10rem;
+    height:3rem;
+    border-radius: 50px;
+    margin-right:1rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    font-weight: 700;
+    font-family: 'Trebuchet MS';
+    cursor: pointer;
+}
+
+.nav .log #login{
+    background-color: white;
+    color:black;
+}
+
+.log .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5em;
+    color:white;
+    margin-right:13em;
+    font-size: 1.2em;
+}
+
+.log .heading a{
+    cursor: pointer;
+    text-decoration: none;
+    color:white;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    color:white;   
+    margin:5vw 12vw;
+}
+
+.content .text {
+    width: 40vw;
+    height: 68vh;
+    text-align: center;
+    color:white;
+    font-weight: 800;
+    font-size: 2.3rem;
+    font-family: 'Trebuchet MS' ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content .text #heading-1{
+    font-size: 3.5em;
+}
+
+.content .image img{
+    border-radius: 20px;
+}
+
+.content .text button{
+    width:7em;
+    height:3rem;
+    border-radius: 1em;
+    font-size: 1.7rem;
+    margin:1em;
+    cursor: pointer;
+    transition: all linear 0.1s;
+}
+
+.text button:hover{
+    transform: scale(1.1);
+}
+#wrapper_hidden{
+    width:100vw;
+    height:100vh;
+    background-color: black;
+    display:none;
+    position: absolute;
+    top:0;
+    left:0;
+    opacity:0.7;
+    z-index:1;
+}
+
+.hidden{    
+    font-weight: 600;
+    font-size: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 25vw;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:10vw;
+    left:17vw;
+    border-radius: 20px;    
+    color: black;
+    font-family: 'lilita One';
+    display:none;
+    z-index: 2;
+}
+
+.hidden h1{
+    font-weight: 400;
+    text-align: center;
+}
+
+.hidden button{
+    height:4rem;
+    width:6em;
+    font-size: 2rem;
+    font-family: 'lilita One';
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding:1rem;
+    background-color: black;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all linear 2ms;
+}
+
+.hidden .but a{
+    text-decoration: none;
+}
+
+.hidden button:hover{
+    background-color: white;
+    color:black;
+}
+
+.hidden .but{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin:1rem;
+}
+
+.hidden .but #food{
+    margin:2rem;
+}
+
+.hidden button img{
+    height:3rem;
+    width: 6rem;
+}
+
+
+.hidden #cross{
+    position: absolute;
+    top:1vh;
+    right:2vw;
+    cursor: pointer;
+}

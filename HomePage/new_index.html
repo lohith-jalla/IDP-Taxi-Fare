@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="new_index.css">
+    <title>New</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav">
+            <div class="image">
+                <img src="/Images/R.png" alt="logo">
+            </div>  
+            <div class="log">
+                <div class="heading">
+                    <a href="/RidesPage/Rides.html"><h3>Rides</h3></a>
+                    <a href="/FoodPage/Food.html"><h3>Foods</h3></a>
+                </div>
+                
+                <a href="SignUp.html"><button type="submit">Sign Up</button></a>
+                <a href="Login.html"><button type="submit" id="login">LogIn</button></a>
+            </div>
+        </div>
+
+        <div class="content">   
+            <div class="text">
+                <h1 class="hidden_text">We Search <br>  <h1 id="heading-1">You Save</h1></h1>
+                <button onclick="display()">Continue <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div id="wrapper_hidden"></div>
+            <div class="hidden">
+                <span id="cross" onclick="exit()">&#10005</span>
+                <h1>Continue <br> with</h1>
+                <div class="but">
+                    <a href="/RidesPage/Rides.html"><button id="ride"> <img src="/Images/car.png" alt="" onclick=""> Ride</button></a>
+                    <a href="/FoodPage/Food.html"><button id="food"> <img src="/Images/samosa.png" alt=""> Food</button></a>
+                </div>
+            </div>
+            <div class="image">
+                <img src="/Images/couple Travel.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="new_index.js"></script>
+</body>
+</html>
